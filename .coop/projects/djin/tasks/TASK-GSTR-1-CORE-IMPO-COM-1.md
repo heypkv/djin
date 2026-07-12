@@ -3,7 +3,7 @@ id: TASK-GSTR-1-CORE-IMPO-COM-1
 short_id: 55693938654f
 title: "GSTR-1 core: import, compute, emit"
 type: feature
-status: todo
+status: in_review
 created: 2026-07-12
 updated: 2026-07-12
 aliases: []
