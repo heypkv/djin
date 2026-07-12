@@ -3,7 +3,7 @@ id: TASK-SCAF-DJIN-ECOS-PATT-1
 short_id: 979c94e463de
 title: Scaffold djin on the ecosystem pattern
 type: feature
-status: todo
+status: in_progress
 created: 2026-07-12
 updated: 2026-07-12
 aliases: []

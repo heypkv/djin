@@ -10,3 +10,12 @@
 .cnos/workspaces/*/env/.env.*
 !.cnos/workspaces/*/env/.env.example
 !.cnos/workspaces/*/env/.env.*.example
+
+# Go / build
+/djin
+/djin.exe
+/dist/
+*.out
+
+# Web UI (ui/ is built into internal/webui/dist; node_modules never committed)
+ui/node_modules/

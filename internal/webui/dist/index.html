@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>djin — GST compliance</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font: 16px/1.5 system-ui, sans-serif;
+        background: #0b1020;
+        color: #e6e9f2;
+      }
+      main { text-align: center; padding: 2rem; max-width: 34rem; }
+      h1 { font-size: 2.25rem; margin: 0 0 .25rem; letter-spacing: -0.02em; }
+      .tag { color: #8ea0c8; margin: 0 0 1.5rem; }
+      code { background: #182136; padding: .15em .4em; border-radius: .35em; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>djin</h1>
+      <p class="tag">Offline GST compliance — GSTR-1 preparer</p>
+      <p>
+        The web UI is on its way. For now, prepare an upload with
+        <code>djin gstr1 build -i invoices.json -o upload.json</code>.
+      </p>
+    </main>
+  </body>
+</html>
