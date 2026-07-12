@@ -1,0 +1,84 @@
+{
+  "gstin": "10AAICH1439H1ZZ",
+  "period": { "month": 4, "year": 2026, "qrmp": true },
+  "invoices": [
+    {
+      "number": "KD27I-0000000001",
+      "date": "01-06-2026",
+      "buyer": { "gstin": "10CLZPS0601K1ZY", "pos": "10" },
+      "lines": [
+        {
+          "hsn": "998315",
+          "description": "Hosting and information technology (IT) infrastructure provisioning services",
+          "uqc": "NA",
+          "qty": 0,
+          "rate": 18,
+          "taxable": 719.00
+        }
+      ]
+    },
+    {
+      "number": "KD27I-0000000002",
+      "date": "05-06-2026",
+      "buyer": { "name": "prashantsinha.in", "pos": "10" },
+      "lines": [
+        {
+          "hsn": "998315",
+          "description": "Hosting and information technology (IT) infrastructure provisioning services",
+          "uqc": "NA",
+          "qty": 0,
+          "rate": 18,
+          "taxable": 862.80
+        }
+      ]
+    },
+    {
+      "number": "PC27I-0000000001",
+      "date": "10-06-2026",
+      "buyer": { "pos": "10" },
+      "lines": [
+        { "hsn": "998439", "description": "Other on-line contents n.e.c.", "uqc": "NA", "qty": 0, "rate": 18, "taxable": 83.90 }
+      ]
+    },
+    {
+      "number": "PC27I-0000000002",
+      "date": "10-06-2026",
+      "buyer": { "pos": "10" },
+      "lines": [
+        { "hsn": "998439", "description": "Other on-line contents n.e.c.", "uqc": "NA", "qty": 0, "rate": 18, "taxable": 83.90 }
+      ]
+    },
+    {
+      "number": "PC27I-0000000003",
+      "date": "10-06-2026",
+      "buyer": { "pos": "10" },
+      "lines": [
+        { "hsn": "998439", "description": "Other on-line contents n.e.c.", "uqc": "NA", "qty": 0, "rate": 18, "taxable": 83.90 }
+      ]
+    },
+    {
+      "number": "PC27I-0000000004",
+      "date": "10-06-2026",
+      "buyer": { "pos": "10" },
+      "lines": [
+        { "hsn": "998439", "description": "Other on-line contents n.e.c.", "uqc": "NA", "qty": 0, "rate": 18, "taxable": 83.90 }
+      ]
+    },
+    {
+      "number": "PC27I-0000000005",
+      "date": "10-06-2026",
+      "buyer": { "pos": "10" },
+      "lines": [
+        { "hsn": "998439", "description": "Other on-line contents n.e.c.", "uqc": "NA", "qty": 0, "rate": 18, "taxable": 83.90 }
+      ]
+    },
+    {
+      "number": "PC27I-0000000006",
+      "date": "10-06-2026",
+      "buyer": { "pos": "10" },
+      "lines": [
+        { "hsn": "998439", "description": "Other on-line contents n.e.c.", "uqc": "NA", "qty": 0, "rate": 18, "taxable": 83.90 }
+      ]
+    }
+  ]
+}

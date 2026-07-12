@@ -40,6 +40,22 @@ func (a Amount) MarshalJSON() ([]byte, error) {
 	return []byte(a.String()), nil
 }
 
+// UnmarshalJSON reads a rupee value (JSON number or string) into paise, so an
+// invoice-level input of "taxable": 719.00 round-trips against MarshalJSON.
+func (a *Amount) UnmarshalJSON(b []byte) error {
+	s := strings.Trim(strings.TrimSpace(string(b)), `"`)
+	if s == "" || s == "null" {
+		*a = 0
+		return nil
+	}
+	v, err := ParseAmount(s)
+	if err != nil {
+		return err
+	}
+	*a = v
+	return nil
+}
+
 // ParseAmount parses a rupee string into paise. It tolerates the quirks of the
 // official CSV templates: thousands separators ("4,981"), surrounding spaces,
 // an empty string (treated as zero), signs, and more than two decimals (which

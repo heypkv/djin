@@ -1,0 +1,115 @@
+{
+  "gstin": "10AAICH1439H1ZZ",
+  "fp": "062026",
+  "version": "GST3.2.1",
+  "hash": "hash",
+  "b2b": [
+    {
+      "ctin": "10CLZPS0601K1ZY",
+      "inv": [
+        {
+          "inum": "KD27I-0000000001",
+          "idt": "01-06-2026",
+          "val": 848.00,
+          "pos": "10",
+          "rchrg": "N",
+          "inv_typ": "R",
+          "itms": [
+            {
+              "num": 1,
+              "itm_det": {
+                "rt": 18,
+                "txval": 719.00,
+                "camt": 64.71,
+                "samt": 64.71,
+                "csamt": 0.00
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "b2cs": [
+    {
+      "sply_ty": "INTRA",
+      "rt": 18,
+      "typ": "OE",
+      "pos": "10",
+      "txval": 1366.20,
+      "camt": 122.95,
+      "samt": 122.95,
+      "csamt": 0.00
+    }
+  ],
+  "hsn": {
+    "hsn_b2b": [
+      {
+        "num": 1,
+        "hsn_sc": "998315",
+        "desc": "Hosting and information technology (IT) infrastructure provisioning services",
+        "uqc": "NA",
+        "qty": 0,
+        "rt": 18,
+        "txval": 719.00,
+        "iamt": 0.00,
+        "camt": 64.71,
+        "samt": 64.71,
+        "csamt": 0.00
+      }
+    ],
+    "hsn_b2c": [
+      {
+        "num": 1,
+        "hsn_sc": "998315",
+        "desc": "Hosting and information technology (IT) infrastructure provisioning services",
+        "uqc": "NA",
+        "qty": 0,
+        "rt": 18,
+        "txval": 862.80,
+        "iamt": 0.00,
+        "camt": 77.65,
+        "samt": 77.65,
+        "csamt": 0.00
+      },
+      {
+        "num": 2,
+        "hsn_sc": "998439",
+        "desc": "Other on-line contents n.e.c.",
+        "uqc": "NA",
+        "qty": 0,
+        "rt": 18,
+        "txval": 503.40,
+        "iamt": 0.00,
+        "camt": 45.30,
+        "samt": 45.30,
+        "csamt": 0.00
+      }
+    ]
+  },
+  "doc_issue": {
+    "doc_det": [
+      {
+        "doc_num": 1,
+        "docs": [
+          {
+            "num": 1,
+            "from": "KD27I-0000000001",
+            "to": "KD27I-0000000002",
+            "totnum": 2,
+            "cancel": 0,
+            "net_issue": 2
+          },
+          {
+            "num": 2,
+            "from": "PC27I-0000000001",
+            "to": "PC27I-0000000006",
+            "totnum": 6,
+            "cancel": 0,
+            "net_issue": 6
+          }
+        ]
+      }
+    ]
+  }
+}
