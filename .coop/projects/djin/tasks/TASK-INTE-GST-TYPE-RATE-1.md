@@ -3,7 +3,7 @@ id: TASK-INTE-GST-TYPE-RATE-1
 short_id: 74ba67ae8586
 title: "internal/gst: types, rates, codes, validation"
 type: feature
-status: todo
+status: in_progress
 created: 2026-07-12
 updated: 2026-07-12
 aliases: []
