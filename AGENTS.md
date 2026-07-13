@@ -9,7 +9,8 @@ resume from the coop `mvp` track when unparked.
 Offline GST/compliance super-tool for Indian businesses (NOT an accounting
 system). Go single binary + embedded web UI, distributed via `hey djin`.
 Follows the ecosystem pattern (see
-`../hey/docs/north-star.md`). Full spec: [docs/feature-set-v1.md](docs/feature-set-v1.md).
+[hey's north star](https://github.com/kitsyai/hey/blob/main/docs/north-star.md)).
+Full spec: [docs/feature-set-v1.md](docs/feature-set-v1.md).
 
 ## Shipped (v0.1.0)
 
